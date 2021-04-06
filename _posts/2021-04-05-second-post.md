@@ -1,18 +1,18 @@
 ---
 published: true
 layout: single
-title: "블로그를 테스트해보고 싶다."
+title: "Java 관련 페이지로 나타나는지 확인."
 comments: true
 classes: wide
 categories:
-  - blog
+  - java
 tags:
-  - [blog, jekyl]
+  - [java, jpa]
 date: 2021-04-06
 last_modified_at: 2021-04-06 
 ---
 
-## 안녕하세요. 
+## Java 페이지임
 
 ![test](https://user-images.githubusercontent.com/22446581/113670865-97ead880-96f0-11eb-95cb-f4594ceb69de.png)
 

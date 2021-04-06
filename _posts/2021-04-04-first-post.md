@@ -9,7 +9,7 @@ classes: wide
 categories:
   - blog
 tags:
-  - [blog, jekyll]
+  - [blog, jekyl]
 date: 2021-04-06
 last_modified_at: 2021-04-06 
 ---

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "first posting"
+title: "first posting2"
 category: post
 tags:
 comments: true

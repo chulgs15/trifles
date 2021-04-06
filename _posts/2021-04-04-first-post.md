@@ -16,7 +16,7 @@ last_modified_at: 2021-04-06
 
 ## 안녕하세요. 
 
-![Image Alt 텍스트]({{"/images/test.png"}})
+![Image Alt 텍스트]({{"/assets/images/test.png"}})
 
 이번에 새롭게 블로그를 열기위해서 테스트 중입니다. 
 좋은 내용으로 보답하겠습니다.

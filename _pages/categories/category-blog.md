@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "blog 내용 정리"
 layout: archive
 permalink: categories/blog
 author_profile: true
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Blog %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign blogs = site.categories.blog %}
+{% for post in blogs %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

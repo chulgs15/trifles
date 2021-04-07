@@ -10,4 +10,4 @@ sidebar_main: true
 
 ***
 
-{% assign javas = site.categories.Java %} {% for post in javas %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign javas = site.categories.java %} {% for post in javas %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

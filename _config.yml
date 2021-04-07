@@ -86,17 +86,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-GFJZL5399N"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "chul gyu,Shin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안양개발자"
+  bio              : "개발자"
   location         : "An-yang, Korea"
   email            : "chulgs15"
   links:

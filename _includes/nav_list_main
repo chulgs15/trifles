@@ -15,14 +15,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
-                        <li><a href="/trifiles/categories/java" class="">Java ({{category[1].size}})</a></li>
+                        <li><a href="/trifles/categories/java" class="">Java ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
-                        <li><a href="/trifiles/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                        <li><a href="/trifles/categories/blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

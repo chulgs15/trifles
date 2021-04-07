@@ -1,13 +1,13 @@
 ---
 published: true
 layout: single
-title: "Java 관련 페이지로 나타나는지 확인."
+title: "Quicksort in Java"
 comments: true
 classes: wide
 categories:
   - java
 tags:
-  - [java, jpa]
+  - [java, jpa, trifles]
 date: 2021-04-06
 last_modified_at: 2021-04-06 
 ---

@@ -11,7 +11,7 @@
             전체 글 수 <u>{{sum}}</u> 개
       </li>
       <li>
-        <span class="nav__sub-title">개발</span>
+        <span class="nav__sub-title">Dev.</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
@@ -23,13 +23,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Book</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "blog" %}
+                    {% if category[0] == "book" %}
                         {% if jekyll.environment == 'production'%}
-                            <li><a href="/trifles/categories/java" class="">Blog ({{category[1].size}})</a></li>
+                            <li><a href="/trifles/categories/book" class="">Book ({{category[1].size}})</a></li>
                         {% else %}
-                            <li><a href="/categories/java" class="">Blog ({{category[1].size}})</a></li>
+                            <li><a href="/categories/book" class="">Book ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endif %}
                 {% endfor %}

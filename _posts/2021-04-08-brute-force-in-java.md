@@ -17,13 +17,13 @@ toc_sticky: true
 
 ## 브루트-포스법
 
- 브루트-포스법은 문자열 검색의 한 종류다. 문자열 검색이란 원본 패턴과 같은 패턴을 Text 에서 검색하는 것이다. 브루트-포스는 모든 문자열을 일직선으로 검색해서 같은 패턴을 찾는다.
+ 브루트-포스법은 문자열 검색의 한 종류다. 문자열 검색이란 원본 패턴과 같은 패턴을 텍스트에서 검색하는 것이다. 브루트-포스는 모든 문자열을 일직선으로 검색해서 같은 패턴을 찾는다.
 
 ![brute-force.jpg](https://user-images.githubusercontent.com/22446581/113973845-f0001700-9877-11eb-8547-5646f4cccc95.jpg){: .align-center}
 
 ### 코드
 
-Test Code는 [Github](https://github.com/chulgs15/sinabro/blob/master/algorithm/src/test/java/org/example/algorithm/BruteForceMatchTest.java) 에 있다.
+`bfMatch`는 문자열의 앞에서 패턴과 일치하는 문자열을 찾으면 종료한다. 반대로 `bfMatchLast`는 문자열의 뒤에서 일치하면 종료한다. Test Code는 [Github](https://github.com/chulgs15/sinabro/blob/master/algorithm/src/test/java/org/example/algorithm/BruteForceMatchTest.java) 에 있다.
 
 ```java
 public class BruteForceMatch {

@@ -8,17 +8,20 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  /* apply a natural box layout model to all elements */
+  font-size: 18px;
 
   @include breakpoint($medium) {
     font-size: 18px;
   }
 
   @include breakpoint($large) {
+    /* 기존 20 */
     font-size: 20px;
   }
 
   @include breakpoint($x-large) {
+    /* 기존 22 */
     font-size: 22px;
   }
 

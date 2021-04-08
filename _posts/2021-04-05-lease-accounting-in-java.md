@@ -11,10 +11,8 @@ tags:
 date: 2021-04-06
 last_modified_at: 2021-04-06 
 ---
-
+ 2019년부터 적용한 회계법인 리스부채에 대한 이야기를 한다. 기본적인 원리와 등록예제를 설명한다.
 ![img](https://1.bp.blogspot.com/-_8agDEnJUqQ/YEeXw6orqPI/AAAAAAAAQZI/4VIhPtsdDYkCzEb3cZJw8Zfw8K6jtWwuQCLcBGAsYHQ/w400-h143/%25EB%258B%25A4%25EC%259D%25B4%25EC%2596%25B4%25EA%25B7%25B8%25EB%259E%25A8.png){: .align-center}
-
- 이번 Post는 2019년부터 적용한 회계법인 리스부채에 대한 이야기를 한다. 기본적인 원리와 등록예제를 설명한다.
 
 ## 리스부채
 
@@ -42,7 +40,7 @@ last_modified_at: 2021-04-06
 
  리스회사에 지급할 계획정보를 가진다. 지급일자, 금액, 리스부채, 이자, 현재가치 정보를 가진다. LeaseSchedule의 각 현재가치는 리스부채와 이자를 계산하는데 중요한 역할을 하기 때문에 정확히 계산해야 한다.
 
-### 전체적인 계산 Flow
+### 계산 방식
 
 ![Lease Liabilities Excel](https://1.bp.blogspot.com/-7GCiMLre0io/YEeQ31rQLwI/AAAAAAAAQYY/aQymweLyhog0AsH6-Sd3M0JNfelbqZDgACLcBGAsYHQ/w640-h538/%25EA%25B7%25B8%25EB%25A6%25BC1.jpg){: .align-center}
 

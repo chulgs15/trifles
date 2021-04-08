@@ -11,7 +11,7 @@ tags:
 date: 2021-04-06
 last_modified_at: 2021-04-06
 ---
-
+자료 구조와 객체의 차이, 디미터 규칙, DTO에 대해서 설명한다.
 <img src="https://woowabros.github.io/img/2019-03-20/book.jpg" alt="test" style="zoom: 10%;" />
 
 ## 0. 주관적 결론.

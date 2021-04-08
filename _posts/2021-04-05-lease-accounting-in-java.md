@@ -30,7 +30,7 @@ last_modified_at: 2021-04-06
 
 ## Java
 
-![Lease Class Diagram](https://1.bp.blogspot.com/-ANJk7ROUnOw/YEd_ApDD1gI/AAAAAAAAQXk/EBjwFj2SE3017X5WB0uVr_unnnoSdlJPgCLcBGAsYHQ/w125-h320/%25EB%258B%25A4%25EC%259D%25B4%25EC%2596%25B4%25EA%25B7%25B8%25EB%259E%25A8.png){: .align-center}
+<img src="https://user-images.githubusercontent.com/22446581/113953564-11024100-9853-11eb-99e8-5ab749f80966.png" alt="다이어그램" style="zoom:25%;" />
 
 #### LeaseContract.class
 

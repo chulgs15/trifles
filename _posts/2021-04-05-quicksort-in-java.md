@@ -6,7 +6,7 @@ comments: true
 categories:
   - java
 tags:
-  - [java, jpa, trifles]
+  - [java, trifles]
 date: 2021-04-06
 last_modified_at: 2021-04-06
 toc: true

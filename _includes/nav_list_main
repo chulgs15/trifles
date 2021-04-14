@@ -43,7 +43,18 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+      <span class="nav__sub-title">blog</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "blog" %}
+                        {% if jekyll.environment == 'production'%}
+                            <li><a href="/trifles/categories/blog" class="">blog ({{category[1].size}})</a></li>
+                        {% else %}
+                            <li><a href="/categories/blog" class="">blog ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
  
       </li>

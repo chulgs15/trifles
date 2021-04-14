@@ -1,5 +1,5 @@
 ---
-title: "blog 내용 정리"
+title: "trifles 이야기"
 layout: archive
 permalink: categories/blog
 author_profile: true

@@ -12,7 +12,7 @@ last_modified_at: 2021-04-17
 toc: true
 toc_sticky: true
 ---
-외부 API, Library, Framework와 구현 기능의 경계와 통합에 대한 이야기.
+ 테스트 케이스에 대한 이야기.
 
 <img src="https://woowabros.github.io/img/2019-03-20/book.jpg" alt="test" style="zoom: 10%;" />
 

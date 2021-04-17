@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "[Oracle] Docker Oracle XE image 접속"
+title: "[Database] Docker Oracle XE image 접속"
 comments: true
 classes: wide
 categories:
@@ -18,7 +18,7 @@ Docker Oracle XE image를 사용해 SQLDeveloper 로 접속해보자.
 <img src="https://user-images.githubusercontent.com/22446581/115093584-ce78ec80-9f55-11eb-8503-321d29b348b8.png" alt="image" style="zoom:33%; display: block; margin: 0px auto;" />
 
 ## 목적
-  실습을 위해 데이터베이스를 OS에 설치하지 않고 Dcoker 이미지로 실행하는 실습을 진행한다. Docker 이미지를 사용할 때 장점은 Oracle XE 설치를 위해 파일 다운로드 및 설치에 걸리는 시간을 줄일수 잇따.
+  실습을 위해 데이터베이스를 OS에 설치하지 않고 Docker 이미지로 실행하는 실습을 진행한다. Docker 이미지를 사용할 때 장점은 Oracle XE 설치를 위해 파일 다운로드 및 설치에 걸리는 시간을 줄일 수 있다.
 
 ## Docker
  Docker 로 이미지를 생성 후 실행해보자.

@@ -39,10 +39,12 @@ http://www.sqlines.com/oracle-to-mysql
 
 ## 의문점
 
-- [ ] Table 의 스키마 정보를 Select 로 가져올 수 있는가?
+- [x] Table 의 스키마 정보를 Select 로 가져올 수 있는가?
+  - [ ] Table에서 데이터를 가져와서 
 - [ ] Clob => LongText 로 Insert가 가능한가?
 - [ ] Blob 정보를 가져올 수 있는가?
 
 ### 할일
 
-- [ ]  jdbc 연결
+- [x]  jdbc 연결
+- [ ]  Mysql Connection 을 pool 형식으로 만들어서 비동기로 실행.

@@ -3,9 +3,8 @@ published: true
 layout: single
 title: "[Database] Docker Mariadb image 접속"
 comments: true
-classes: wide
 categories:
-  - Database
+  - database
 tags:
   - [mariadb, mysql , docker]
 date: 2021-04-18

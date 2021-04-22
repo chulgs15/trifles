@@ -5,9 +5,9 @@ title: "[SQL] Multi Case Condition"
 comments: true
 classes: wide
 categories:
-  - Database
+  - database
 tags:
-  - [sql]
+  - [sql, trifles]
 date: 2021-04-20
 last_modified_at: 2021-04-20
 toc: true

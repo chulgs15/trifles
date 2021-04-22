@@ -3,9 +3,8 @@ published: true
 layout: single
 title: "[Database] Docker Oracle XE image 접속"
 comments: true
-classes: wide
 categories:
-  - Database
+  - database
 tags:
   - [oracle, docker]
 date: 2021-04-16

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "Clean Code - 제 5장. 객체와 자료 구조"
+title: "Clean Code 제 5장. 객체와 자료 구조"
 comments: true
 classes: wide
 categories:

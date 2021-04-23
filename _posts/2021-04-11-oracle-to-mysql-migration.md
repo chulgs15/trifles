@@ -37,6 +37,32 @@ Matching은 SQLLines 의 Matching 을 사용해보기로 했다.
 
 http://www.sqlines.com/oracle-to-mysql
 
+
+
+## 오류
+
+### 해결
+
+VARCHAR(2000) 이상 컬럼은 모두 text 로 변경.
+
+* https://stricky.tistory.com/297
+  * mysql ERROR 1118 row size too large 오류 해결 방안
+  * SHOW VARIABLES LIKE 'innodb_file_format';
+  * https://mariadb.com/kb/en/troubleshooting-row-size-too-large-errors-with-innodb/
+    * 공식 문서 
+
+* https://stackoverflow.com/questions/23670855/how-to-change-read-only-permission-to-set-new-value-of-mysql-server-system-varia
+  * read-only permission
+* https://hub.docker.com/_/mariadb
+* https://emunhi.com/view/201812/02154627862?menuNo=10031
+  * 백업앤 리커버리.
+
+
+
+
+
+
+
 ## 의문점
 
 - [x] Table 의 스키마 정보를 Select 로 가져올 수 있는가?

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: single
 title: "Clean Code 제 9장. 클래스"
 comments: true
@@ -8,7 +8,7 @@ categories:
 tags:
   - [java, cleancode]
 date: 2021-04-24
-last_modified_at: 2021-04-24
+last_modified_at: 2021-04-25
 toc: true
 toc_sticky: true
 ---
@@ -50,10 +50,4 @@ toc_sticky: true
  "함수를 작게, 매개변수 목록을 짧게"라는 전략을 따르다 보면 때때로 몇몇 메서드만 사용하는 인스턴스 변수가 아주 많아 짆다. 이는 새로운 클래스로 쪼개야 한다는 신호다. 
 
   응집도를 유지하면서 코드를 깨끗하게 만드는 방법은 무엇일까? 저자는 테스트 슈트 작성을 강조한다. 결국 테스트가 중요하다. 
-
-### OCP
-
-OCP 란 클래스는 확장에 개방적이고 수정에 폐쇄적이어야 한다는 원칙이다.
-
-- [ ] OCP에 대한 설명을 참고 필요.
 

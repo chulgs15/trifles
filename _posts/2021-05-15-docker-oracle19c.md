@@ -91,13 +91,19 @@ docker run --name oracle19c \
 -e ORACLE_PWD=Oracle1234 \
 -e ORACLE_EDITION=standard \
 -e ENABLE_ARCHIVELOG=true \
--v /D/docker-images/OracleDatabase/SingleInstance/dockerfiles/19.3.0/data:/opt/oracle/oradata \
+-v /D/docker-images/OracleDatabase/SingleInstance/dockerfiles/19.3.0/data/:/opt/oracle/oradata \
 oracle/database:19.3.0-ee
 ```
 
 # SQLDEVELOPER
 
-SQLDeveloper에서 19c로 접속해보자.
+아래 Query로 SQLDeveloper에서 19c로 접속이 가능한지 확인해보자.
+
+```
+
+```
+
+
 
 # 참고
 

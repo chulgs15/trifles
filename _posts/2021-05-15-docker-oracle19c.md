@@ -97,10 +97,19 @@ oracle/database:19.3.0-ee
 
 # SQLDEVELOPER
 
-아래 Query로 SQLDeveloper에서 19c로 접속이 가능한지 확인해보자.
+아래 Query로 SQLDeveloper에서 19c로 접속이 가능한지 확인해보자. 아래와 같이 접속정보를 입력 후 SQL 워크시트를 열어보자.
 
-```
+![image](https://user-images.githubusercontent.com/22446581/118417485-3fdfc280-b6ef-11eb-906b-2fd2d19ac220.png)
 
+아래 쿼리로 실행하는 DB Version을 확인한다.
+
+```sql
+select Banner
+  from v$version
+  
+BANNER
+----------------------------------------------------------------------
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
 ```
 
 

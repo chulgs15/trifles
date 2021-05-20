@@ -15,14 +15,6 @@ toc_sticky: true
 
  접속 테스트를 위해 Oracle 19c를 Docker로 실행.
 
-# Oracle 19c와 JDBC 접속 버젼확인
-
-기존 Oracle 11g를 19c Upgrade 프로젝트 중 JDBC 지원에 대한 이슈가 발생했다. jdk 1.8 이하로 만들어진 Java Web 프로그램들이 19c를 지원 여부를 확인해야 했다. Oracle의 공식 Homepage에서 확인하면 아래와 같이 나온다.
-
-![image](https://user-images.githubusercontent.com/22446581/118341483-4be64b80-b55a-11eb-98b9-d01fc30ac3ad.png)
-
-홈페이지 정보대로라면 대대적인 JDK 1.8 Upgrade를 해야할 상황이었다. 테스트를 위해서 Docker로 접속과 Select를 빠르게 테스트 해보았다.
-
 # 설치 방법
 
 ## 1. Git Clone
@@ -85,9 +77,11 @@ D:\docker-images\OracleDatabase\SingleInstance\dockerfiles\19.3.0\
 
 실행 멸령어의 Option들은 이 [링크](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance)를 참조하자. 그리고 데이터 저장을 위해서 Volume(-v)을 위한 Folder를 생성했다.
 
-```
-docker run --name oracle19c \
+```powershell
+docker run --name  oracle19c \
 -p 1521:1521 -p 5500:5500 \
+-e ORACLE_SID=ORCLCDB \
+-e ORACLE_PDB=ORCLPDB1 \
 -e ORACLE_PWD=Oracle1234 \
 -e ORACLE_EDITION=standard \
 -e ENABLE_ARCHIVELOG=true \

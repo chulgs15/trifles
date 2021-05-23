@@ -78,7 +78,7 @@ public class TestController {
 ![image](https://user-images.githubusercontent.com/22446581/119243442-bf630b00-bba1-11eb-80d7-046a2525d8c5.png)
 
 #### 4.Proxy 설정
-Angular의 `ng serve`와 Spring boot의 실행 Port는 서로 다르다. 이를 이어주기 위해 `/api`로 시작하는 Angular의 요청은 `localhost:8080/api`로 변경해준다.
+Angular의 `ng serve`(4200)와 Spring boot의 실행 Port(8080)는 다르다. `/api`로 시작하는 Angular의 요청은 Spring Boot에게 돌려주기 위해  `localhost:8080/api`로 변경해준다.
 ![image](https://user-images.githubusercontent.com/22446581/119244087-cf7de900-bba7-11eb-98ff-34e85786df66.png)
 
 ```json

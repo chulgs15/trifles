@@ -90,7 +90,7 @@ Angular의 `ng serve`(4200)와 Spring boot의 실행 Port(8080)는 다르다. `/
 }
 ```
 
-angular.json을 아래와 같이 수정한다.
+`angular.json`을 아래와 같이 수정한다.
 
 ```json
 ...

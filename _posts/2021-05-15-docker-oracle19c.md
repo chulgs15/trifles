@@ -15,6 +15,8 @@ toc_sticky: true
 
  접속 테스트를 위해 Oracle 19c를 Docker로 실행.
 
+![oracle](https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/0eb8e772-8880-46b2-98ee-257cf9c2fa2c/File/4f12493fdd522bb90eb2c5780cfa9f10/screenshot_from_2017_04_18_01_47_54.png)
+
 # 설치 방법
 
 ## 1. Git Clone

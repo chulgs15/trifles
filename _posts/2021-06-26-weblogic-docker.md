@@ -15,6 +15,8 @@ toc_sticky: false
 
  Weblogic을 Docker로 실행해서 Console 접근까지 이야기한다.
 
+![로고](https://user-images.githubusercontent.com/22446581/123495508-f4f68a80-d65e-11eb-9d3b-2f2e6714abb2.jpg)
+
 # 결론
 
 * Docker를 사용해서 Weblogic을 실행하면 아주 편하다.

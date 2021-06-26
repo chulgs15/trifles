@@ -84,7 +84,7 @@ https://localhost:9002/console/
 
 ![image](https://user-images.githubusercontent.com/22446581/123494913-7f89ba80-d65c-11eb-94fd-2217dcd288db.png)
 
-# 결론
+# 결과
 
  잘 돌아가는 Weblogic의 Console을 볼수 있다. 관련해서 소스는 [github](https://github.com/chulgs15/sinabro/tree/master/spring-weblogic/weblogic-docker)에 올려두었다.
 

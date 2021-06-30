@@ -21,7 +21,7 @@ toc_sticky: false
 
 * Weblogic 에서 정적 html을 서비스 할 수 있다.
 
-이왕 여기까지 왔으니...Angular까지 서비스를 만들려고 한다. Spring boot와 마찬가지로 Angular를 Weblogic에서 자동으로 배포할 수 있는 방법을 이야기한다.
+이왕 여기까지 왔으니...Angular까지 서비스를 만들려고 한다. Spring boot와 마찬가지로 Angular를 Weblogic에서 자동으로 배포할 수 있는 방법을 이야기한다. 소스는 [github](https://github.com/chulgs15/sinabro/tree/master/spring-weblogic)에 있다.
 
 # 과정
 

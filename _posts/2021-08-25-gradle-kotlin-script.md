@@ -15,7 +15,8 @@ toc_sticky: true
 ---
 Gradle로 Kotlin을 Script 방식으로 실행.
 
-[그림 필요]
+<img src="https://user-images.githubusercontent.com/22446581/131189476-b73c58b4-9f58-4ed8-b9ec-e8dc3f8be4f4.jpg" alt="로고" style="zoom: 67%;" />
+
 
 # 결론
 * Kotlin 과 Gradle 로 `kt` 형식의 파일을 실행.

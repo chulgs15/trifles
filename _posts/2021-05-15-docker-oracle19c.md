@@ -8,7 +8,7 @@ categories:
 tags:
   - [serious, database, oracle]
 date: 2021-05-15
-last_modified_at: 2021-05-15
+last_modified_at: 2021-09-24
 toc: true
 toc_sticky: true
 ---
@@ -108,7 +108,13 @@ BANNER
 Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
 ```
 
+# Root 사용자 접속
 
+`yum` 을 통해 사용하고 싶은 package 가 있어 root 로 접속할 방법이 필요했다. Root 로 접속하는 방법이다.
+
+```bash
+docker exec -u root --workdir / -ti oracle19c /bin/sh
+```
 
 # 참고
 

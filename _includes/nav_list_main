@@ -16,9 +16,9 @@
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
                         {% if jekyll.environment == 'production'%}
-                            <li><a href="/trifles/categories/java" class="">Java ({{category[1].size}})</a></li>
+                            <li><a href="/trifles/categories/java" class="">java ({{category[1].size}})</a></li>
                         {% else %}
-                            <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+                            <li><a href="/categories/java" class="">java ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endif %}
                     {% if category[0] == "os" %}
@@ -33,6 +33,13 @@
                             <li><a href="/trifles/categories/database" class="">database ({{category[1].size}})</a></li>
                         {% else %}
                             <li><a href="/categories/database" class="">database ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endif %}
+                    {% if category[0] == "EBS" %}
+                        {% if jekyll.environment == 'production'%}
+                            <li><a href="/trifles/categories/database" class="">Oracle ERP ({{category[1].size}})</a></li>
+                        {% else %}
+                            <li><a href="/categories/database" class="">Oracle ERP ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endif %}
 

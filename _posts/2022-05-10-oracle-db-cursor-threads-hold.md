@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 layout: single
-title: "[Oracle] jgit 활용기."
+title: "[Oracle] Shared Cursor"
 comments: true
 categories:
   - java
@@ -27,7 +27,7 @@ AWR Report 에서 Version Count 가 높은 SQL 이 존재하는 것을 발견했
 
 > A statement with the same syntax but different semantics uses a child cursor.
 
-이유는 여러가지가 있는데 
+이유는 여러가지가 있는데, 검색하면 심심치 않게 보이는 것이 `BIND_MISMATCH` 다.  SQL Bind 값 길이의 변화로 Bind SQL 을 공유할 수 없는 현상이다. 아래와 같은 예제를 볼 수 있다.
 
 
 
@@ -75,4 +75,4 @@ select count(*) from emp where ename = :a ->> 1 PARENT, 2 CHILDREN
 * 참고
   * https://mikedietrichde.com/2018/09/11/oracle-12-2-and-higher-set-_cursor_obsolete_threshold-to-old-default/
   * https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rnarnsms73&logNo=40152907186
-  * https://support.oracle.com/epmos/faces/DocumentDisplay?_afrLoop=210905652162567&id=296377.1&_afrWindowMode=0&_adf.ctrl-state=t3ezjdx6_4#aref_section221
+  * Troubleshooting: High Version Count Issues (Doc ID 296377.1)

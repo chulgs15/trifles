@@ -16,6 +16,11 @@ SQL 의 Child Cursor 에 대한 이야기.
 
 ![제목](https://user-images.githubusercontent.com/22446581/168464200-23afeba8-be98-4ed2-9541-bdf5b6b74332.JPG)
 
+# Version
+
+* OS : Oracle Linux Server
+* DB : Oracle 19.10.0.0
+
 # 결론
 
 * Oracle 은 같은 SQL 이라도 다양한 이유로 인해 다른 SQL 로 실행할 수 있다.

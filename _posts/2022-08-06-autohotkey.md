@@ -27,7 +27,7 @@ toc_sticky: true
 # 설정
 
 ```
-RShift & Space::
+LShift & Space::
     ;; 한영 변환을 LShift + Space 로 변환.
     Send, {vk15sc138} 
 Return
@@ -35,5 +35,42 @@ Return
 LWin & Enter::
     ;; Alt + Tab =>  Ctrl + Alt + Tab
     Send, {LAlt down}{LCtrl down}{Tab down}{Tab up}{LCtrl up}{LAlt up} ;; 
+Return
+
+RShift & a::
+    ;; Alt + Tab =>  Ctrl + Alt + Tab
+    Send, *
+Return
+
+RShift & s::
+    Send, _
+Return
+
+RShift & d::
+    Send {Backspace}
+Return
+
+RShift & e::
+    Send % "="
+Return
+
+RShift & r::
+    Send % "%"
+Return
+
+RShift & z::
+    Send % "'"
+Return
+
+RShift & w::
+    Send % "select *"
+    Send, {Enter}
+    send % "from   "
+    Send, {Enter}
+    send % "where  1=1"
+    Send, {Enter}
+    send % ";"
+    Send, {Up}{Up}
+    Send, {End}
 Return
 ```
